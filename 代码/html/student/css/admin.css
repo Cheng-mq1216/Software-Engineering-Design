@@ -1,0 +1,12 @@
+#top_menu {
+    color: brown;
+}
+
+.system {
+    color: blue;
+}
+
+.message {
+    position: relative;
+    padding-right:0; 
+}

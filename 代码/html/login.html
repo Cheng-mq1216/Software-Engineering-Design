@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="目录页">
+  <meta name="keywords" content="login">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>登录页</title>
+  <style type="text/css">
+    @import"./css/login.css";
+  </style>
+  <script src="http://how2j.cn/study/js/jquery/2.0.0/jquery.min.js"></script>
+  <link href="http://how2j.cn/study/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
+  <script src="http://how2j.cn/study/js/bootstrap/3.3.6/bootstrap.min.js"></script>
+
+
+
+  <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+  <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+    <form class="form-signin">
+      <h2 class="form-signin-heading">北京科技大学本科生毕业论文（设计）管理系统</h2>
+      <label for="inputAccount" class="sr-only">学号(工号)</label>
+      学号(工号)
+      <input type="text" name="account" class="form-control" placeholder="请输入学号(工号)" required autofocus>
+      <label for="inputPassword" class="sr-only">密码</label>
+      密码
+      <input type="password" name="account" class="form-control" placeholder="请输入密码" required autofocus>
+    </form>
+  </div>
+  <div class="dropdown">
+    身份：
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="true">
+      学生
+      <span class="caret"></span>
+    </button>
+
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+      <li>
+        <a href="#">教师</a>
+      </li>
+    </ul>
+  </div>
+  <button class="btn btn-primary" type="submit">登录</button>
+</body>
+
+</html>
