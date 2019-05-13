@@ -18,11 +18,20 @@ body {
   letter-spacing:nomal;
 }
 
-/* .login-lable{
-  
-} */
+.login-lable{
+  background-color:#beb7b7;
+  border:1px solid red;
+  height:300px;
+  width:300px;
+  padding:5px;
+
+  position: relative;
+  left:1000px;
+  top: 40px;
+}
 
 .btn {
   margin: 100;
   padding: 1000;
+ 
 }
